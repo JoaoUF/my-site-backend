@@ -4,6 +4,7 @@ from rest_framework import status
 from rest_framework.decorators import api_view, permission_classes
 from rest_framework.response import Response
 from rest_framework.permissions import IsAuthenticated
+from django.core.paginator import Paginator
 
 
 @api_view(['GET', 'POST'])
@@ -11,9 +12,17 @@ from rest_framework.permissions import IsAuthenticated
 def item_list(request):
     if request.method == 'GET':
         items = Item.objects.all()
+
         state_user = request.GET.get('usuario', None)
         if state_user is not None:
             items = items.filter(usuarioAdicion=state_user)
+
+        pagination_user = request.GET.get('pagination', None)
+        page_user = request.GET.get('page', None)
+        if pagination_user is not None and page_user is not None:
+            pagination = Paginator(items, pagination_user)
+            items = pagination.get_page(page_user)
+
         serializer = ItemSerializer(items, many=True)
         return Response(serializer.data)
 

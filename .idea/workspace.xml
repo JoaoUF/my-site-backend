@@ -5,27 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18af9016-dbb3-424e-81da-0c8e3eb8b8d4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/my-site.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/my-site.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/signals/CustomUserSignals.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/signals/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/models/CustomUser.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/models/CustomUser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/models/Item.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/models/Item.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/models/UserManager.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/models/UserManager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/models/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/serializers/CustomUserSerializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/serializers/CustomUserSerializer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/serializers/ItemSerializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/serializers/ItemSerializer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/serializers/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/serializers/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/views/CustomUserView.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/views/CustomUserView.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/apps.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/views/ItemView.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/views/ItemView.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/views/TokenView.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/views/TokenView.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/views/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/views/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/core/models/TestCustomUser.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/core/models/TestCustomUser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/core/models/TestItem.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/core/models/TestItem.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/factories.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/factories.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
